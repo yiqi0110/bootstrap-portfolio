@@ -97,32 +97,42 @@ html {
     font-size: 80%;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 400;
 }
 
-h1, .ts-h1 {
+h1,
+.ts-h1 {
     font-size: 2.5rem;
 }
 
-h2, .ts-h2 {
+h2,
+.ts-h2 {
     font-size: 1.5rem;
 }
 
-h3, .ts-h3 {
+h3,
+.ts-h3 {
     font-size: 1.25rem;
     margin-bottom: 1.5625rem;
 }
 
-h4, .ts-h4 {
+h4,
+.ts-h4 {
     margin-bottom: 1.875rem;
 }
 
-h5, .ts-h5 {
+h5,
+.ts-h5 {
     font-size: 1.125rem;
 }
 
-h6, .ts-h6 {
+h6,
+.ts-h6 {
     font-size: 1rem;
 }
 
@@ -388,7 +398,8 @@ B. Helpers
     background-size: inherit;
 }
 
-.ts-background-image, .ts-img-into-bg {
+.ts-background-image,
+.ts-img-into-bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -397,7 +408,8 @@ B. Helpers
     width: 100%;
 }
 
-.ts-background-image img, .ts-img-into-bg img {
+.ts-background-image img,
+.ts-img-into-bg img {
     display: none;
 }
 
@@ -575,7 +587,8 @@ B. Helpers
     margin-left: 0;
 }
 
-.no-gutters > .col, .no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
     padding-right: 0;
     padding-left: 0;
 }
@@ -792,15 +805,13 @@ p {
     font-size: .8125rem !important;
 }
 
-.ts-xs-text-center {
-}
+.ts-xs-text-center {}
 
 /*-------------------------------------------
   -- Title
 -------------------------------------------*/
 
-.ts-title {
-}
+.ts-title {}
 
 .ts-title h5 {
     font-weight: normal;
@@ -1044,7 +1055,8 @@ blockquote h6 {
     display: none;
 }
 
-.ts-carousel-blockquote .owl-item figure, .ts-carousel-blockquote .owl-item p,
+.ts-carousel-blockquote .owl-item figure,
+.ts-carousel-blockquote .owl-item p,
 .ts-carousel-blockquote .owl-item .blockquote-footer {
     opacity: 0;
     transition: .6s ease;
@@ -1197,7 +1209,9 @@ blockquote h6 {
     transition: .3s ease;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
     background-color: #f26c4f;
     border-color: #f26c4f;
     box-shadow: none;
@@ -1339,15 +1353,17 @@ blockquote h6 {
     margin-bottom: 1.25rem;
 }
 
-.card-body, .card-footer, .card-header {
+.card-body,
+.card-footer,
+.card-header {
     padding: 1.5625rem;
 }
 
-.ts-cards-same-height > div[class*='col-'] {
+.ts-cards-same-height>div[class*='col-'] {
     display: flex;
 }
 
-.ts-cards-same-height > div[class*='col-'] .card {
+.ts-cards-same-height>div[class*='col-'] .card {
     width: 100%;
 }
 
@@ -1361,8 +1377,7 @@ blockquote h6 {
     border: none;
 }
 
-.ts-card__image {
-}
+.ts-card__image {}
 
 /*-------------------------------------------
   -- Circle
@@ -1565,13 +1580,16 @@ form.ts-labels-inside-input .form-group label.focused,
     box-shadow: none;
 }
 
-.ts-inputs__transparent input, .ts-inputs__transparent textarea {
+.ts-inputs__transparent input,
+.ts-inputs__transparent textarea {
     background-color: transparent;
     color: #fff;
 }
 
-.ts-inputs__transparent input:active, .ts-inputs__transparent input:focus,
-.ts-inputs__transparent textarea:active, .ts-inputs__transparent textarea:focus {
+.ts-inputs__transparent input:active,
+.ts-inputs__transparent input:focus,
+.ts-inputs__transparent textarea:active,
+.ts-inputs__transparent textarea:focus {
     background-color: transparent;
     color: #fff;
 }
@@ -1581,7 +1599,9 @@ form.ts-labels-inside-input .form-group label.focused,
     padding-bottom: 4rem;
 }
 
-.ts-item:hover .icon, .ts-item:hover h4, .ts-item:hover p {
+.ts-item:hover .icon,
+.ts-item:hover h4,
+.ts-item:hover p {
     transform: translateY(-0.625rem);
 }
 
@@ -1600,7 +1620,9 @@ form.ts-labels-inside-input .form-group label.focused,
     transform: translateX(0%);
 }
 
-.ts-item .icon, .ts-item h4, .ts-item p {
+.ts-item .icon,
+.ts-item h4,
+.ts-item p {
     transition: .3s ease;
     transform: translateY(0);
 }
@@ -1723,7 +1745,9 @@ body.has-loading-screen.loading-done:after {
     display: none !important;
 }
 
-.map .gmnoprint a, .map .gmnoprint span, .map .gm-style-cc {
+.map .gmnoprint a,
+.map .gmnoprint span,
+.map .gm-style-cc {
     display: none;
 }
 
@@ -1903,7 +1927,8 @@ iframe div {
     width: 0%;
 }
 
-.progress .progress-bar, .progress .ts-progress-value {
+.progress .progress-bar,
+.progress .ts-progress-value {
     transition: 1s ease;
 }
 
@@ -1934,12 +1959,13 @@ select.form-control {
     margin-top: -0.125rem;
     padding: .5rem;
     -webkit-appearance: none;
-       -moz-appearance: none;
+    -moz-appearance: none;
     text-indent: .0625rem;
     text-overflow: '';
 }
 
-select.form-control:focus, select.form-control:hover {
+select.form-control:focus,
+select.form-control:hover {
     box-shadow: .375rem .3125rem 1.5625rem rgba(0, 0, 0, .2);
 }
 
@@ -2024,8 +2050,8 @@ D. Plugins Styles
     opacity: 0;
     background-color: #000;
     -webkit-transition: all .15s ease-out;
-       -moz-transition: all .15s ease-out;
-            transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
 }
 
 /* overlay animate in */
@@ -2045,8 +2071,8 @@ D. Plugins Styles
 .mfp-fade.mfp-wrap .mfp-content {
     opacity: 0;
     -webkit-transition: all .15s ease-out;
-       -moz-transition: all .15s ease-out;
-            transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    transition: all .15s ease-out;
 }
 
 /* content animate it */
@@ -2065,7 +2091,8 @@ D. Plugins Styles
   -- Owl Carousel
 -------------------------------------------*/
 
-.owl-carousel .owl-stage, .owl-carousel .owl-stage-outer,
+.owl-carousel .owl-stage,
+.owl-carousel .owl-stage-outer,
 .owl-carousel .owl-item {
     height: 100%;
 }
@@ -2108,7 +2135,8 @@ D. Plugins Styles
     width: 100%;
 }
 
-.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
     background-color: rgba(255, 255, 255, .6);
     border-radius: 50%;
     box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .1);
@@ -2121,7 +2149,8 @@ D. Plugins Styles
     width: 2.5rem;
 }
 
-.owl-carousel .owl-nav .owl-prev:after, .owl-carousel .owl-nav .owl-next:after {
+.owl-carousel .owl-nav .owl-prev:after,
+.owl-carousel .owl-nav .owl-next:after {
     font-family: "Font Awesome\ 5 Free";
     font-weight: 900;
     font-size: 1.375rem;
@@ -2129,7 +2158,8 @@ D. Plugins Styles
     -webkit-font-smoothing: antialiased;
 }
 
-.owl-carousel .owl-nav .owl-prev:hover, .owl-carousel .owl-nav .owl-next:hover {
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
     background-color: rgba(25, 25, 25, .8);
 }
 
@@ -2246,11 +2276,13 @@ E. Template Specific Elements
     transform: translateY(.3125rem) rotate(.02deg);
 }
 
-.ts-bubble-border.in i:nth-child(1), .ts-bubble-border.in i:nth-child(3) {
+.ts-bubble-border.in i:nth-child(1),
+.ts-bubble-border.in i:nth-child(3) {
     width: 100%;
 }
 
-.ts-bubble-border.in i:nth-child(2), .ts-bubble-border.in i:nth-child(4) {
+.ts-bubble-border.in i:nth-child(2),
+.ts-bubble-border.in i:nth-child(4) {
     height: 100%;
 }
 
@@ -2258,7 +2290,8 @@ E. Template Specific Elements
     opacity: 1;
 }
 
-#ts-content .ts-bubble-border, #ts-footer .ts-bubble-border {
+#ts-content .ts-bubble-border,
+#ts-footer .ts-bubble-border {
     padding: 1.5rem 2.25rem;
 }
 
@@ -2451,7 +2484,7 @@ E. Template Specific Elements
     display: flex;
 }
 
-.ts-time-line__horizontal .ts-sly-frame.ts-loaded > ul {
+.ts-time-line__horizontal .ts-sly-frame.ts-loaded>ul {
     align-items: flex-end;
     display: flex;
 }
@@ -2495,7 +2528,8 @@ E. Template Specific Elements
     position: relative;
 }
 
-.ts-story .ts-background, .ts-story .ts-background-image {
+.ts-story .ts-background,
+.ts-story .ts-background-image {
     transition: .3s ease;
 }
 
@@ -2534,12 +2568,14 @@ E. Template Specific Elements
 
 /* Hero navigation arrows */
 
-#ts-hero .owl-prev, #ts-hero .owl-next {
+#ts-hero .owl-prev,
+#ts-hero .owl-next {
     background-color: transparent;
     border: .125rem solid rgba(255, 255, 255, .8);
 }
 
-#ts-hero .owl-prev:after, #ts-hero .owl-next:after {
+#ts-hero .owl-prev:after,
+#ts-hero .owl-next:after {
     line-height: 2.25rem;
 }
 
@@ -2553,20 +2589,41 @@ E. Template Specific Elements
     height: 100% !important;
 }
 
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+} */
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    padding: 2px 2px;
+}
+
+.column img {
+    margin: 2px 2px;
+    vertical-align: middle;
+    width: 14rem;
+}
+
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {
         font-size: 85%;
     }
 
-    h1, .ts-h1 {
+    h1,
+    .ts-h1 {
         font-size: 2.5rem;
     }
 
-    h2, .ts-h2 {
+    h2,
+    .ts-h2 {
         font-size: 1.625rem;
     }
 
-    h3, .ts-h3 {
+    h3,
+    .ts-h3 {
         font-size: 1.25rem;
     }
 
@@ -2589,6 +2646,10 @@ E. Template Specific Elements
     .ts-promo-number figure {
         font-size: 2.375rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (min-width: 48rem) and (max-width: 61.9375rem) {
@@ -2596,15 +2657,18 @@ E. Template Specific Elements
         font-size: 90%;
     }
 
-    h1, .ts-h1 {
+    h1,
+    .ts-h1 {
         font-size: 3rem;
     }
 
-    h2, .ts-h2 {
+    h2,
+    .ts-h2 {
         font-size: 1.875rem;
     }
 
-    h3, .ts-h3 {
+    h3,
+    .ts-h3 {
         font-size: 1.375rem;
     }
 
@@ -2627,6 +2691,10 @@ E. Template Specific Elements
     .ts-promo-number figure {
         font-size: 2.5rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (min-width: 62rem) and (max-width: 74.9375rem) {
@@ -2634,15 +2702,18 @@ E. Template Specific Elements
         font-size: 95%;
     }
 
-    h1, .ts-h1 {
+    h1,
+    .ts-h1 {
         font-size: 3.125rem;
     }
 
-    h2, .ts-h2 {
+    h2,
+    .ts-h2 {
         font-size: 2rem;
     }
 
-    h3, .ts-h3 {
+    h3,
+    .ts-h3 {
         font-size: 1.375rem;
     }
 
@@ -2674,6 +2745,10 @@ E. Template Specific Elements
     .ts-promo-number figure {
         font-size: 2.75rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (min-width: 75rem) {
@@ -2681,15 +2756,18 @@ E. Template Specific Elements
         font-size: 100%;
     }
 
-    h1, .ts-h1 {
+    h1,
+    .ts-h1 {
         font-size: 3.5rem;
     }
 
-    h2, .ts-h2 {
+    h2,
+    .ts-h2 {
         font-size: 2.25rem;
     }
 
-    h3, .ts-h3 {
+    h3,
+    .ts-h3 {
         font-size: 1.875rem;
     }
 
@@ -2747,10 +2825,16 @@ E. Template Specific Elements
     .floated form {
         padding: 2.5rem 5rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (max-width: 35.9375rem) {
-    h1, .ts-h1 {
+
+    h1,
+    .ts-h1 {
         margin-bottom: 1.25rem;
     }
 
@@ -2769,10 +2853,16 @@ E. Template Specific Elements
     .ts-promo-number figure {
         font-size: 2.25rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (min-width: 36rem) and (max-width: 61.9375rem) {
-    h1, .ts-h1 {
+
+    h1,
+    .ts-h1 {
         margin-bottom: 1.875rem;
     }
 
@@ -2783,10 +2873,16 @@ E. Template Specific Elements
     .ts-block-inside {
         padding: 2.5rem;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (min-width: 62rem) {
-    h1, .ts-h1 {
+
+    h1,
+    .ts-h1 {
         margin-bottom: 2.5rem;
     }
 
@@ -2815,16 +2911,28 @@ E. Template Specific Elements
     .floated {
         position: absolute;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (max-width: 47.9375rem) {
-    h4, .ts-h4 {
+
+    h4,
+    .ts-h4 {
         font-size: 1.125rem;
+    }
+
+    .column img {
+        width: 12rem;
     }
 }
 
 @media (min-width: 48rem) {
-    h4, .ts-h4 {
+
+    h4,
+    .ts-h4 {
         font-size: 1.5rem;
     }
 
@@ -2841,11 +2949,19 @@ E. Template Specific Elements
     .navbar.navbar-expand-md .ts-background {
         opacity: 0;
     }
+
+    .column img {
+        width: 12rem;
+    }
 }
 
 @media (max-width: 61.9375rem) {
     .ts-card__image {
         height: 15.625rem;
+    }
+
+    .column img {
+        width: 12rem;
     }
 }
 
@@ -2870,5 +2986,9 @@ E. Template Specific Elements
 
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 2.5rem;
+    }
+
+    .column img {
+        width: 14rem;
     }
 }
